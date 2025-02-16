@@ -1,0 +1,38 @@
+# Global exclusions
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# =========================
+# Backend (api) - ASP.NET Core
+# =========================
+/api/bin/
+/api/obj/
+/api/.vs/
+/api/*.user
+/api/*.suo
+/api/*.cache
+/api/packages/
+
+
+# Optionally ignore local configuration files (uncomment if needed)
+# /api/appsettings.Development.json
+
+# =========================
+# Frontend - React
+# =========================
+/frontend/node_modules/
+/frontend/build/
+
+# Local environment variables (adjust as needed)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
